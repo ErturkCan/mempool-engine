@@ -1,0 +1,27 @@
+# Build artifacts
+build/
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# Binaries
+test_*
+bench_*
+
+# Debug symbols
+*.dSYM/
+*.su
+
+# Sanitizer outputs
+*.log
+asan.supp
+tsan.supp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
