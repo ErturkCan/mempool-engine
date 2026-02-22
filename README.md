@@ -1,6 +1,6 @@
 # Memory Pool Allocator - High-Performance C Project
 
-A production-quality, high-performance memory pool allocator demonstrating advanced low-level memory management, concurrent programming, and systems optimization techniques.
+A high-performance memory pool allocator demonstrating advanced low-level memory management, concurrent programming, and systems optimization techniques.
 
 ## Problem Statement
 
@@ -403,32 +403,32 @@ make sanitize
 This project demonstrates:
 
 1. **Systems Programming Expertise**
-   - Low-level memory management
-   - Cache-aware data structure design
-   - Alignment and pointer arithmetic
+  - Low-level memory management
+  - Cache-aware data structure design
+  - Alignment and pointer arithmetic
 
 2. **Concurrent Programming**
-   - Lock-free algorithms
-   - Atomic operations and CAS loops
-   - Thread-local storage patterns
-   - Contention analysis and optimization
+  - Lock-free algorithms
+  - Atomic operations and CAS loops
+  - Thread-local storage patterns
+  - Contention analysis and optimization
 
 3. **Performance Engineering**
-   - Micro-benchmarking methodology
-   - Cache-line optimization
-   - Throughput scaling analysis
-   - Latency profiling
+  - Micro-benchmarking methodology
+  - Cache-line optimization
+  - Throughput scaling analysis
+  - Latency profiling
 
 4. **Software Engineering**
-   - Clean modular architecture
-   - Comprehensive testing (unit + benchmark)
-   - Error handling and validation
-   - Well-documented code and APIs
+  - Clean modular architecture
+  - Comprehensive testing (unit + benchmark)
+  - Error handling and validation
+  - Well-documented code and APIs
 
 5. **Build System Mastery**
-   - Complex Makefile with multiple targets
-   - Sanitizer integration
-   - Conditional compilation
+  - Complex Makefile with multiple targets
+  - Sanitizer integration
+  - Conditional compilation
 
 ## Performance Tuning
 
@@ -449,8 +449,8 @@ mempool_t *pool = pool_create(
 );
 
 /* Rule of thumb:
-   - blocks_per_thread = typical allocs between reuses per thread
-   - total_blocks = expected concurrent allocations × threads × safety factor
+  - blocks_per_thread = typical allocs between reuses per thread
+  - total_blocks = expected concurrent allocations × threads × safety factor
 */
 ```
 
@@ -494,4 +494,4 @@ Use freely for educational and professional purposes.
 ---
 
 **Last Updated**: 2024
-**Author**: Systems Programming Portfolio
+**Author**: Can Erturk
